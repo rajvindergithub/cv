@@ -1,42 +1,33 @@
- @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
-*{ margin: 0px; padding: 0px; font-family: 'Poppins'; font-size: 15px;   }
-main{ display: flex; width: 80%; margin: 40px auto; column-gap: 30px; border: 1px solid rgba(0,0,0,0.15);    }
-.cv-left{ flex: 0.27; border-right: 1px solid rgba(0,0,0,0.05); }
-.cv-right{ flex: 0.73;  padding-right: 40px; padding-top: 15px; padding-left: 15px;  padding-bottom: 50px;    }
-.cv-basic{ background-color: lightgray; color: #000; padding: 40px 24px 24px 24px;  }
-.cv-edu{ padding: 24px 24px 0px 24px; margin-bottom: 20px;  }
-.cv-skills{ padding: 0px 24px 24px 24px; }
-.cv-basic_name{ font-family: 'Merriweather'; font-weight: 700; font-size: 24px; }
-.cv-basic_pos{ font-family: 'Merriweather'; font-weight: 500; font-size: 20px; font-style: italic; margin: 5px 0px 15px 0px;    }
-.edu-heading, .cv-skills-heading{ font-size: 20px; font-family: 'Merriweather'; font-weight: 700; margin: 5px 0px; text-transform: uppercase; }
-.career-object_heading, .work-exper_heading{ font-family: 'Merriweather'; font-weight: 700; font-size: 24px; margin: 24px 0px 10px 0px; text-transform: uppercase; }
-.work-exper_heading{ margin-bottom: -20px;  }
-.work-exp_heading{ font-size: 24px; margin-top: 25px;    }
-.work-exp_time_loc{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;  }
-.work-exp_com{ font-size: 20px; }
-.exp-work-list ul{ list-style: none; margin-top: 15px;  }
-.exp-work-list ul li{ margin-bottom: 7.5px; text-align: justify; line-height: 20px;   }
-.cv-left{ background-color: rgba(0,0,0,0.025); }
-.career-object{ text-align: justify;  }
-.cv-basic .cv-basic_email{ background-image: url('../icon/mail.png'); background-repeat: no-repeat; background-position: 5px 5px; padding-left: 30px; background-size: 15px; margin-bottom: 5px;   }
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;500;600;700&family=Merriweather:wght@300;400;700&family=Montserrat:wght@100;500;600;800&family=Poppins:wght@100;300;400;500;600;700&display=swap');
 
-.cv-basic .cv-basic_ph{ background-image: url('../icon/telephone.png'); background-repeat: no-repeat; background-position: 5px 5px; padding-left: 30px; background-size: 15px;margin-bottom: 5px;  }
+*{ margin: 0px; padding: 0px; font-family: 'Poppins'; }
+.cv-persn-name{ font-family: 'Assistant'; font-size: 42px; }
+body{ background-color: rgba(0,0,0,0.15); margin: 2% 4%;   }
+#cv-sr-fnt{ background-color: #FFF; padding: 5% 7.5%;   }
+.cv-persn-des{ color: #00C0F0; font-size: 32px; margin-bottom: 20px;   }
+.cv-person-cont{ margin-bottom: 60px; }
+.cv-person-cont ul{ list-style: none; display: flex; }
+.cv-person-cont ul li{ margin-right: 25px; }
+.cv-l-heading-ln{ text-transform: uppercase; font-family: 'Assistant'; font-size: 20px; color: rgba(0,0,0,0.5); border-bottom: 1px solid rgba(0,0,0,0.5); padding-bottom: 5px; margin-bottom: 25px;     }
+.summary-para{ margin-bottom: 25px; }
+.l-child-heading-f{ font-size: 24px; font-weight: 500;  }
+.l-child-heading-f-s{  font-size: 24px; font-weight: 300; color: #00C0F0;}
+.l-child-heading-f-t{ margin-bottom: 10px; }
+.l-child-heading-f-t ul{ list-style: none; display: flex; }
+.l-child-heading-f-t ul li{ margin-right: 15px; }
+.cv-exp-work{ margin-bottom: 45px; margin-top: 15px;  }
+.cv-exp-work ul{ list-style: none; margin-left: 15px;  }
+.cv-exp-work ul li{ margin-bottom: 0px; position: relative; }
+.cv-exp-work ul li::after{ content: ""; top: 10px; left: -12px; background-color: rgba(0,0,0,0.75); height: 5px; width: 5px; border-radius: 50%; position: absolute; }
+main{ display: flex; justify-content: space-between; column-gap: 70px;  }
 
-.cv-basic .cv-basic_loc{ background-image: url('../icon/location.png'); background-repeat: no-repeat; background-position: 5px 5px; padding-left: 30px; background-size: 15px; margin-bottom: 5px;  }
-
-.cv-skills-lines{ padding-left: 15px; position: relative; }
-.cv-skills-lines::after{ content: "";  position: absolute; top: 10px; left: 2px; background-color: rgba(0,0,0,0.75); height: 5px; width: 5px; border-radius: 50%;  }
-
-@media print{
-    @page {
-    margin: 0; padding: 0px;
-}
-    body {-webkit-print-color-adjust: exact; margin: 0px; padding: 0px; font-size: 12px;   }
-    main{ margin: 0px; width: 100%; column-gap: 20px; border: none; padding: 0px;     }
-    .cv-basic{ background-color: lightgray; color: #000; padding: 24px;  }
- 
-    .edu-heading, .cv-skills-heading{ font-size: 18px; }
-    .exp-work-list ul li{ margin-bottom: 5px; }
-    .cv-right{   padding-right: 30px;  padding-left: 5px;  padding-bottom: 50px;    }
-    .career-object_heading{ margin-top: 10px; }
-}
+.skill-list ul{ list-style: none;  }
+.skill-list ul li{ margin-right: 20px;  display: inline-block; font-size: 20px; font-weight: 400; margin-bottom: 15px; border-bottom: 1px solid rgba(0,0,0,0.5);    }
+.skill-list{ margin-bottom: 12px; }
+.cv-l-sec{ flex: 1.5; }
+.cv-r-sec{ flex: 1; }
+.cert-H{ margin-top: 40px; }
+.edu-h{ margin-top: 20px; }
+.cert-h{ color: #00C0F0; font-size: 24px; margin-bottom: 5px  }
+.cert-p{ font-size: 18px; }
+.cert-div-m{ margin-bottom: 15px; }
