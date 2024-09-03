@@ -1,0 +1,55 @@
+[Your Name]
+[Your Address]
+[City, State, ZIP Code]
+[Phone Number]
+[Email Address]
+[LinkedIn Profile] | [Portfolio Website] | [GitHub Profile]
+
+Objective
+A highly skilled WordPress Developer with over [X] years of experience in building custom WordPress themes from scratch. Proficient in creating and managing Custom Post Types (CPT) and Advanced Custom Fields (ACF) to deliver highly customized and scalable websites. Expertise in frontend technologies including HTML, CSS, and JavaScript. Seeking to leverage my technical skills and experience to contribute to innovative projects at [Company Name].
+
+Skills
+WordPress Development: Custom theme development, CPT, ACF, plugin customization, multisite setup, WooCommerce integration.
+Frontend Technologies: HTML5, CSS3, JavaScript, jQuery, Bootstrap, responsive design.
+Backend Technologies: PHP, MySQL, RESTful APIs, custom PHP code.
+Version Control: Git, GitHub, Bitbucket.
+Tools & Platforms: Visual Studio Code, Sublime Text, XAMPP, WAMP, MAMP.
+Project Management: Agile, Scrum, Jira, Trello.
+SEO Optimization: On-page SEO, schema markup, Yoast SEO.
+Cross-Browser Compatibility: Testing and ensuring compatibility across various browsers and devices.
+Professional Experience
+WordPress Developer
+[Company Name] – [City, State]
+[Month, Year] – Present
+
+Custom Theme Development: Developed fully customized WordPress themes from scratch using Custom Post Types (CPT) and Advanced Custom Fields (ACF) to meet client-specific requirements.
+Frontend Development: Implemented responsive and user-friendly frontend designs using HTML, CSS, and JavaScript, ensuring optimal performance across all devices and browsers.
+API Integration: Integrated third-party APIs to enhance website functionality, including social media feeds, payment gateways, and other web services.
+Plugin Customization: Customized existing plugins and developed custom plugins to extend WordPress functionality as per project needs.
+Website Maintenance: Provided ongoing website maintenance, including updates, security patches, and performance optimization.
+Collaboration: Worked closely with cross-functional teams, including designers, content creators, and project managers, to deliver high-quality web solutions on time and within budget.
+Version Control: Utilized Git for version control, ensuring smooth collaboration and code management throughout the project lifecycle.
+Junior WordPress Developer
+[Previous Company Name] – [City, State]
+[Month, Year] – [Month, Year]
+
+Assisted in the development of custom WordPress themes and plugins, contributing to the overall success of multiple client projects.
+Supported senior developers in troubleshooting and resolving website issues, including bugs, performance, and security concerns.
+Maintained and updated WordPress websites, ensuring they remained secure, functional, and up-to-date.
+Education
+Bachelor of Science in Computer Science
+[University Name] – [City, State]
+[Month, Year] – [Month, Year]
+
+Certifications
+Certified WordPress Developer – [Issuing Organization], [Year]
+Advanced JavaScript Certificate – [Issuing Organization], [Year]
+SEO for WordPress Certificate – [Issuing Organization], [Year]
+Portfolio
+Project Name: [Brief description of the project, technologies used, and link to the live site or GitHub repository.]
+Project Name: [Brief description of the project, technologies used, and link to the live site or GitHub repository.]
+Project Name: [Brief description of the project, technologies used, and link to the live site or GitHub repository.]
+References
+Available upon request.
+
+This CV template highlights your specialized skills in WordPress development, particularly your expertise in custom theme development using CPT and ACF, as well as your frontend development abilities with HTML, CSS, and JavaScript. You can customize the content to reflect your specific experiences and achievements.

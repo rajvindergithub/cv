@@ -2,44 +2,58 @@
 
 *{ margin: 0px; padding: 0px; font-family: 'Poppins'; }
 .cv-persn-name{ font-family: 'Assistant'; font-size: 42px; }
-body{ background-color: rgba(0,0,0,0.15); margin: 4% 12%;   }
+body{ background-color: rgba(0,0,0,0.15); margin: 4% 12%; font-size: 13px;    }
 #cv-sr-fnt{ background-color: #FFF; padding: 5% 5%; border-radius: 4px;     }
 .cv-persn-des{ color: #008689; font-size: 24px; margin-bottom: 20px; font-weight: 600;   }
 .cv-person-cont{ margin-bottom: 40px; }
 .cv-person-cont ul{ list-style: none; display: flex; }
-.cv-person-cont ul li{ margin-right: 25px; }
-.cv-l-heading-ln{ text-transform: uppercase; font-family: 'Assistant'; font-size: 20px; color: rgba(0,0,0,0.95); border-bottom: 1px solid rgba(0,0,0,0.5); padding-bottom: 5px; margin-bottom: 20px; font-weight: 700;     }
+.cv-person-cont ul li{ margin-right: 15px; }
+.cv-l-heading-ln{ text-transform: uppercase; font-family: 'Assistant'; font-size: 20px; color: rgba(0,0,0,0.95); border-bottom: 1px solid rgba(0,0,0,0.15); padding-bottom: 5px; margin-bottom: 20px; font-weight: 700;     }
 .summary-para{ margin-bottom: 25px; }
 .l-child-heading-f{ font-size: 18px; font-weight: 500;  }
+.l-child-heading-f-sub{ font-size: 18px; font-weight: 500; margin-bottom: 10px;   }
 .l-child-heading-f-s{  font-size: 18px; font-weight: 600; color: #008689; margin-bottom: 15px; }
+ 
 .l-child-heading-f-t{ margin-bottom: 10px; }
 .l-child-heading-f-t ul{ list-style: none; display: flex; justify-content: space-between; }
 .l-child-heading-f-t ul li{ margin-right: 15px; }
 .cv-exp-work{ margin-bottom: 30px; margin-top: 15px;  }
-.cv-exp-work ul{ list-style: none; margin-left: 15px;  }
-.cv-exp-work ul li{ margin-bottom: 15px; position: relative; }
-.cv-exp-work ul li::after{ content: ""; top: 10px; left: -12px; background-color: rgba(0,0,0,0.75); height: 5px; width: 5px; border-radius: 50%; position: absolute; }
-main{ display: flex; justify-content: space-between; column-gap: 70px;  }
+.cv-exp-work ul{ list-style: none;  }
+.cv-exp-work ul li{ margin-bottom: 10px; position: relative; padding-left: 5px;  }
+
+.cv-exp-work ul li::after{ height: 3.5px; width: 3.5px; border-radius: 50%; position: absolute; content: ""; left: -6px; top: 7px; background-color: #bcbcbc;   }
+
+.sameCompanyPromotion{ position: relative; }
+
+.sameCompanyPromotion::after{ height: 7.5px; width: 7.5px; left: -19px; top: 7.5px; border-radius: 50%; border: 1px solid #bcbcbc; content: ""; background-color: #fff; position: absolute; z-index: 1;  }
+
+
+.relativeCompany{ position: relative; }
+.relativeCompany::after{ position: absolute; left: -15px; top: 15px; height: 72%; width: 1px; background-color: #bcbcbc; content: "";  }
+
+main{ display: flex; justify-content: space-between; column-gap: 20px;  }
 .profileList div{ display: flex;  column-gap: 4rem; margin-bottom: 0.25rem; }
 .profileList div div{ flex-basis: 50%; }
 .profileList div div:first-child{ font-weight: 700; }
 
 .margin-gap-30{ margin-top: 30px; }
 
-.skill-list ul{ list-style: none; display: flex; flex-wrap: wrap; margin-left: 0px; margin-bottom: 20px;  }
-.skill-list ul li{ margin-right: 20px;  font-size: 18px; font-weight: 400; margin-bottom: 15px;   position: relative; border: 1px solid #bcbcbc; padding: 5px 15px; border-radius: 20px;    }
+.cv-exp-work ul li a{ color: #000; text-decoration: none;  }
+
+.skill-list ul{ list-style: none; display: flex; flex-wrap: wrap; margin-left: 0px; margin-bottom: 20px;   }
+.skill-list ul li{ margin-right: 5px;  font-size: 13px; font-weight: 400;     position: relative;  border-radius: 20px;    }
  
 .cv-person-cont ul{ margin-bottom: 5px; }
 
 .skill-list{ margin-bottom: 12px; }
-.cv-l-sec{ flex: 2.5; }
+.cv-l-sec{ flex: 3.5; }
 .cv-r-sec{ flex: 1; }
 .cert-H{ margin-top: 40px; }
 .edu-h{ margin-top: 20px; }
 .cert-h{ color: #008689; font-size: 24px; margin-bottom: 5px  }
 .cert-p{ font-size: 16px; }
 .cert-div-m{ margin-bottom: 15px; }
-.cv-icon img{ height: 20px; margin-right: 5px;  }
+.cv-icon img{ height: 15px; margin-right: 5px;  }
 .cv-icon{ position: relative; top: 3.5px; }
 .summary-para{ text-align: justify; }
 .cv-exp-work ul li{ text-align: left;}
@@ -50,57 +64,80 @@ main{ display: flex; justify-content: space-between; column-gap: 70px;  }
 .project-list ul{ list-style: none; margin-top: 10px;  }
 .project-list ul li{ margin-bottom: 5px; }
 .project-list ul li a{ text-decoration: none; color: #000; }
+.certificationsList ul li{ margin-bottom: 15px !important; }
 
+.cv-l-sec{ border-right: 1px solid rgba(0,0,0,0.15); padding-right: 15px;  }
+ .showDesktop{ display: block; }
+.showMobile{ display: none; }
 
 @media screen and (max-width: 768px){
+.showMobile{ display: block; }
+    .showDesktop{ display: none; }
     body{  margin: 4% 2%;   }
     .show-mobile{ display: block; }
     .hide-small{ display: none; }
     .cv-person-cont ul, main{ flex-wrap: wrap; }
     .cv-exp-work ul li{ text-align: left; padding-right: 10px; }
-    .l-child-heading-f-s{ font-size: 20px; margin-bottom: 10px;  }
-    .l-child-heading-f-s, .l-child-heading-f{ font-size: 20px; margin-bottom: 10px; }
+    .l-child-heading-f-s{ font-size: 20px; margin-bottom: 5px;  }
+    .l-child-heading-f-s, .l-child-heading-f{ font-size: 20px; margin-bottom: 5px; }
     .skill-list ul li{ font-size: 18px; margin-right: 10px; }
     .cv-persn-des{ font-size: 20px; }
     .cv-persn-name{ font-size: 30px; }
     .cv-icon img{ height: 15px; }
-    .cv-person-cont ul li{ margin-bottom: 5px; }
+    .cv-person-cont ul li{ margin-bottom: -15px; }
     .summary-para{ text-align: left; }
     #cv-sr-fnt{ padding: 7.5%; }
     .l-child-heading-f-t ul{ flex-direction: column; }
+    .cv-l-sec{ border-right: none; padding-right: 0px; }
     
 }
 
 @media print{
+    .less-five-p{ margin-top: -5px;}
+    .rmv-pnt-m{ margin-top: -20px; }
     
-    .nextPageBreak{ padding-top: 40px; }
+    .relativeCompany::after{ height: 77%; }
+    
+    .removetenpixmargin{ margin-top: -10px; }
+    
+    .certificationsList ul li{ margin-bottom: 10px !important; }
+ 
     
     .project-list{ margin-top: 20px; }
     
-    .projectsHeading{ margin-top: 20px; }
-    #cv-sr-fnt{ padding: 3.5%; margin-top: 15px;  }
+    .projectsHeading{ margin-top: 0px; }
+    #cv-sr-fnt{ padding: 3% 2.75% 0.5% 4.5%;   }
     body{ margin: 0px; background-color: #FFF; }
     .cv-persn-name{ font-size: 20px; }
      
-    .summary-para, .skill-list ul li, .cv-person-cont, .skill-list ul li{ font-size: 14px; }
+    .summary-para, .skill-list ul li, .cv-person-cont, .skill-list ul li{ font-size: 12px; }
     .cv-persn-des{ font-size: 13px;}
      
-    .cv-person-cont{ margin-bottom: 35px; font-size: 12px;  }
-    .skill-list ul li{ margin-bottom: 10px; font-size: 12px; margin-right: 5px;  }
-    .l-child-heading-f-s{ font-size: 16px; }
-    .l-child-heading-f{ font-size: 16px; }
-    .cv-l-heading-ln{ margin-bottom: 10px; font-size: 16px;  }
-    .cv-exp-work ul li{ margin-bottom: 5px; font-size: 13px;  }
-    .project-list ul li{ margin-bottom: 5px; font-size: 13px;  }
-    .cert-h{ font-size: 16px; }
-    .cert-p, .summary-para{ font-size: 13px; }
+    .cv-person-cont{ margin-bottom: 10px; font-size: 12px;  }
+    .skill-list ul li{  font-size: 12px; margin-right: 5px;  }
+    .l-child-heading-f-s{ font-size: 12px; }
+    .l-child-heading-f{ font-size: 14px; }
+    .l-child-heading-f-sub{ font-size: 12px; margin-bottom: 5px; margin-top: 15px;   }
+    .cv-l-heading-ln{ margin-bottom: 5px; font-size: 12px;  }
+    .cv-exp-work ul li{ margin-bottom: 5px; font-size: 12px;  }
+    .project-list ul li{ margin-bottom: 5px; font-size: 12px;  }
+    .cert-h{ font-size: 12px; }
+    .cert-p, .summary-para{ font-size: 12px; }
     .cv-persn-des{ margin-bottom: 5px; }
-    .cv-icon img{ height: 15px; margin-right: 3.5px;  }
-    .l-child-heading-f-t ul{ font-size: 13px; }
+    .cv-icon img{ height: 12px; margin-right: 4px; position: relative; top: -2px; }
+    .l-child-heading-f-t ul{ font-size: 12px; }
    
-    .appTwoMobileSec{ margin-top: 25px; }
-    main{ column-gap: 30px; }
-    .cv-person-cont ul li{ margin-right: 15px; }
+     
+    main{ column-gap: 15px; }
+    .cv-person-cont ul li{ margin-right: 4px; }
     .l-child-heading-f-t{ margin-bottom: 4px; }
+    .cv-exp-work{ margin-top: 10px; font-size: 12px; line-height: 18px;  }
+    .l-child-heading-f-t{ margin-bottom: 5px; }
+    .cv-l-sec{ padding-right: 20px; }
+    .removePrintMargin{ margin-top: -20px; }
+    .removePrintProjectGap{ margin-top: -20px; }
+    .project-list{ margin-top: 0px; }
     
+    .project-list ul{ display: flex; flex-wrap: wrap; }
+    .project-list ul li{ width: calc(100%/2)}
 }
